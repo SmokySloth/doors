@@ -43,16 +43,16 @@ Config.DoorList = {
 		locked = true
 	},
 
-  -- Prison Maze Door
-  {
-    objName = 'prop_fnclink_09gate1',
-    objCoords = {x = -2306.498, y = 238.152, z = 168.6212},
-    textCoords = {x = -2307.419, y = 237.6429, z = 168.5614},
-    authorizedJobs = { 'police', 'ambulance', 'fema' },
-    locked = true
-   },
+ 	 -- Prison Maze Door
+  	{
+    		objName = 'prop_fnclink_09gate1',
+    		objCoords = {x = -2306.498, y = 238.152, z = 168.6212},
+    		textCoords = {x = -2307.419, y = 237.6429, z = 168.5614},
+    		authorizedJobs = { 'police', 'ambulance', 'fema' },
+    		locked = true
+   	},
    
-  -- Front Gate
+  	-- Front Gate
 	{
 		objName = 'prop_gate_docks_ld',
 		objCoords  = {x = 1863.114, y = 261.0643, z = 162.2115},
@@ -63,7 +63,7 @@ Config.DoorList = {
 		size = 2
 	},
   
-  -- Back Gate
+  	-- Back Gate
 	{
 		objName = 'prop_gate_docks_ld',
 		objCoords  = {x = 1873.504, y = 363.594, z = 162.0076},
