@@ -1,0 +1,161 @@
+Config = {}
+Config.Locale = 'en'
+
+Config.DoorList = {
+
+	--
+	-- Merryweather Headquarters
+	--
+
+	-- Stairwell
+	{
+		objName = 'v_ilev_fibl_door01',
+		objCoords  = {x = 1871.58, y = 289.7199, z = 166.5609},
+		textCoords = {x = 1871.821, y = 289.8181, z = 166.8086},
+		authorizedJobs = { 'police' },
+		locked = true
+	},
+
+		-- Second Floor
+	{
+		objName = 'v_ilev_fibl_door01',
+		objCoords  = {x = 1871.545, y = 289.7035, z = 170.587},
+		textCoords = {x = 1871.597, y = 290.1825, z = 170.8809},
+		authorizedJobs = { 'police' },
+		locked = true
+	},
+
+	-- Third Floor
+	{
+		objName = 'v_ilev_fibl_door01',
+		objCoords  = {x = 1871.471, y = 289.7545, z = 174.6339},
+		textCoords = {x = 1871.52, y = 290.0473, z = 174.9453},
+		authorizedJobs = { 'police' },
+		locked = true
+	},
+
+	-- Fourth Floor
+	{
+		objName = 'v_ilev_fibl_door01',
+		objCoords  = {x = 1871.48, y = 289.7602, z = 178.5928},
+		textCoords = {x = 1871.465, y = 289.9449, z = 178.7406},
+		authorizedJobs = { 'police' },
+		locked = true
+	},
+
+  -- Prison Maze Door
+  {
+    objName = 'prop_fnclink_09gate1',
+    objCoords = {x = -2306.498, y = 238.152, z = 168.6212},
+    textCoords = {x = -2307.419, y = 237.6429, z = 168.5614},
+    authorizedJobs = { 'police', 'ambulance', 'fema' },
+    locked = true
+   },
+   
+  -- Front Gate
+	{
+		objName = 'prop_gate_docks_ld',
+		objCoords  = {x = 1863.114, y = 261.0643, z = 162.2115},
+		textCoords = {x = 1863.114, y = 265.0643, z = 166.2115},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+  
+  -- Back Gate
+	{
+		objName = 'prop_gate_docks_ld',
+		objCoords  = {x = 1873.504, y = 363.594, z = 162.0076},
+		textCoords = {x = 1873.504, y = 367.594, z = 166.0076},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+  
+	-- 
+	-- CDC/FEMA Base
+	--
+
+	-- Med Lab Front Door 1
+	{
+		objName = 'prop_secdoor_01',
+		objCoords  = {x = 1320.105, y = -702.5814, z = 67.17228},
+		textCoords = {x = 1320.388, y = -702.3008, z = 67.21684},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	},
+
+	-- Med Lab Front Door 2
+	{
+		objName = 'prop_police_door_l',
+		objCoords  = {x = 1321.322, y = -698.9083, z = 67.0947},
+		textCoords = {x = 1320.772, y = -700.2502, z = 67.25529},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	},
+
+	-- Med Lab Room 1
+	{
+		objName = 'v_ilev_genbankdoor1',
+		objCoords  = {x = 1331.643, y = -700.1653, z = 67.26529},
+		textCoords = {x = 1332.643, y = -700.1823, z = 67.26529},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	},
+
+	-- Med Lab Room 2
+	{
+		objName = 'v_ilev_genbankdoor1',
+		objCoords  = {x = 1332.117, y = -698.3503, z = 67.19006},
+		textCoords = {x = 1333.117, y = -698.3703, z = 67.19006},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	},
+
+	-- Med Lab Back Door
+	{
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1338.582, y = -694.3439, z = 67.15886},
+		textCoords = {x = 1339.682, y = -694.3439, z = 67.15886},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	},
+
+	-- Med Lab Containment
+	{
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1345.859, y = -686.4706, z = 67.1594},
+		textCoords = {x = 1346.959, y = -686.4706, z = 67.1594},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true,
+	},
+
+	-- Armory
+	{
+		objName = 'v_ilev_fibl_door01',
+		objCoords  = {x = 1392.68, y = -717.494, z = 67.5371},
+		textCoords = {x = 1393.623, y = -719.7678, z = 67.68798},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true,
+	},
+
+	-- CDC Head Office
+	{
+		objName = 'prop_ch1_07_door_02r',
+		objCoords  = {x = 297.745, y = -747.8976, z = 65.9706},
+		textCoords = {x = 298.745, y = -747.8976, z = 65.9706},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	},
+
+	-- CDC Conference Room
+	{
+		objName = 'prop_ch1_07_door_02r',
+		objCoords  = {x = 1296.853, y = -749.7899, z = 65.9709},
+		textCoords = {x = 1297.853, y = -749.7899, z = 65.9709},
+		authorizedJobs = { 'ambulance', 'fema' },
+		locked = true
+	}
+}
